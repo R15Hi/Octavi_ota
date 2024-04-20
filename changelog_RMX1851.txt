@@ -1,121 +1,78 @@
-====================
-     02-09-2024
-====================
-
-   * frameworks/base
-9a199469 SystemUI: Enable pulsing animation for faceunlock
-
-   * hardware/qcom-caf/common
-d0d2fa3 Update common compatibility matrix with qccsyshal V1.2
 
 ====================
-     02-08-2024
+     04-15-2024
+====================
+
+   * device/qcom/sepolicy-legacy-um
+84869e5 legacy: Add common telephony rules
+
+   * frameworks/opt/telephony
+bd42076 Merge branch 'lineage-21.0' into 14.0
+
+   * packages/apps/Car/Settings
+c92c227 Automatic translation import
+
+   * packages/apps/Jelly
+7e67117 Automatic translation import
+
+   * packages/apps/Launcher3
+f6f8697 New Crowdin updates (#411)
+
+   * packages/apps/TvSettings
+10c5171 Automatic translation import
+
+   * vendor/crowdin
+3d4606b Automatic translation import
+
+====================
+     04-14-2024
 ====================
 
    * android
-27b0c73 manifest: Untract ExactCalculator
+b78acc0 Revert "manifest: Untrack pixel-fw till ready"
 
-   * bootable/recovery
-8547b73 Merge 'lineage-21.0' into 14.0
+   * packages/apps/GameSpace
+eb3f0d2 Revert "Revert "Revert "Remove unimplemented notification function"""
 
-   * build/make
-223b49c Merge 'lineage-21.0' into 14.0
+   * vendor/addons
+4d20ec4 addons: Update systemui clocks from lynx-ap1a.240405.002
+
+   * vendor/pixel-framework
+82c52a6 SystemUIGoogle: Make Google-battery hal calls noop
+
+====================
+     04-13-2024
+====================
 
    * build/soong
-06a4a3d Merge 'lineage-21.0' into 14.0
+74f3dd5 cc: enable Polly globally
 
    * device/lineage/sepolicy
-40dda84 Merge 'lineage-21.0' into 14.0
+363fb7e sepolicy: introduce app lock [2/4]
 
-   * frameworks/av
-5ba23cb Change to output ArrayMode if using SkipCutBuffer
+   * packages/apps/Settings
+e0d24cd Settings: Define android manifest
 
-   * frameworks/native
-f7302d3 Display: the resolution scale factor changed during booting
-
-   * packages/apps/Aperture
-da168d2 Aperture: Log Coil exception messages
-
-   * packages/apps/Backgrounds
-bcd2356 Merge 'lineage-21.0' into 14.0
-
-   * packages/modules/Bluetooth
-d8ad3c6 Merge 'lineage-21.0' into 14.0
-
-   * packages/modules/Permission
-0a6e132 Merge 'lineage-21.0' into 14.0
-
-   * system/core
-89c0723 init.rc: Disable native stats collection service
-
-   * system/sepolicy
-6eee1ab Merge 'lineage-21.0' into 14.0
+   * packages/modules/Wifi
+7d79190 Merge 'lineage-21.0' into 14.0
 
    * vendor/lineage
-3707163 crdroid: Bump to version 10.2
+e358c75 common: Inherit pixel-fw when available
 
 ====================
-     02-07-2024
-====================
-
-   * packages/apps/Dialer
-feefcca Dialer: Increase icon size for the end call button
-
-   * packages/providers/DownloadProvider
-8a71932 Merge tag 'android-14.0.0_r25' into staging/lineage-21.0_merge-android-14.0.0_r25
-
-====================
-     02-06-2024
-====================
-
-   * packages/apps/crDroidSettings
-690f741 New Crowdin updates (#1121)
-
-====================
-     02-05-2024
-====================
-
-====================
-     02-04-2024
+     04-12-2024
 ====================
 
    * art
-07a2aa9 Optimizing: Avoid `HashMap` to speed up LSE.
-
-   * vendor/addons
-a015e84 addons: UdfpsAnimations: Add 'none' to the styles
+34a6c30 Speed up FastVerify by resolving the dex files
 
 ====================
-     02-03-2024
+     04-11-2024
 ====================
 
-   * device/qcom/sepolicy_vndr/legacy-um
-a54e399 legacy: Commonize discard_max_bytes
+   * packages/apps/SetupWizard
+c0fcc93 Fix system locale
 
-====================
-     02-02-2024
-====================
-
-   * packages/apps/Jelly
-2974191 Automatic translation import
-
-====================
-     02-01-2024
-====================
-
-   * packages/apps/Eleven
-0c74853 Eleven: Avoid posting notification when service start id is invalid
-
-   * packages/inputmethods/LatinIME
-2e5d4a0 Merge 'lineage-21.0' into 14.0
-
-   * packages/modules/StatsD
-5b03711 statsd: Disable native stats collection service
-
-   * toolchain/pgo-profiles
-eda5d10 Merge pull request #1 from SOVIET-ANDROID/14.0
-
-====================
-     01-31-2024
-====================
+   * packages/modules/Bluetooth
+a120c24 fix use-after-free for sink/source metadata
 
